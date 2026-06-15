@@ -105,7 +105,7 @@ function HomePage({ onNavigate, onCalendar }) {
           <p className="overline">Dottoressa</p>
           <h1>Michela</h1>
           <p className="degree">
-            magistrale a ciclo unico
+            Laurea magistrale a ciclo unico
             <span>in Scienze della Formazione Primaria</span>
           </p>
           <Flourish icon={Heart} />
