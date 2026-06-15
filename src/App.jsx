@@ -102,11 +102,11 @@ function HomePage({ onNavigate, onCalendar }) {
             src="/assets/tocco-alloro.webp"
             alt="Tocco di laurea con corona d'alloro"
           />
-          <p className="overline">Finalmente</p>
+          <p className="overline">Dottoressa</p>
           <h1>Michela</h1>
           <p className="degree">
-            in Scienze della Formazione Primaria
-            <span>magistrale a ciclo unico</span>
+            magistrale a ciclo unico
+            <span>in Scienze della Formazione Primaria</span>
           </p>
           <Flourish icon={Heart} />
           <p className="invitation">
@@ -118,11 +118,6 @@ function HomePage({ onNavigate, onCalendar }) {
       </div>
 
       <div className="home-panel">
-        <div className="home-panel__date">
-          <span>Lunedì</span>
-          <strong>29</strong>
-          <span>Giugno 2026</span>
-        </div>
         <button className="location-chip" onClick={() => onNavigate("laurea")}>
           <School size={19} />
           <span>
@@ -159,10 +154,6 @@ function GraduationPage() {
       </div>
 
       <div className="content-stack content-stack--raised">
-        <p className="intro-script">
-          Un sogno coltivato tra libri, tirocini e bambini diventa realtà.
-        </p>
-
         <div className="date-grid">
           <DateCard
             icon={CalendarDays}
@@ -174,7 +165,7 @@ function GraduationPage() {
             icon={GraduationCap}
             eyebrow="Corso"
             value="Laurea"
-            note="Magistrale"
+            note="Magistrale a ciclo unico"
           />
         </div>
 
@@ -185,8 +176,8 @@ function GraduationPage() {
           <p>Cubo 30A · piano terra</p>
           <div className="degree-block">
             <span>Corso di laurea</span>
-            <strong>Scienze della Formazione Primaria</strong>
             <small>Magistrale a ciclo unico</small>
+            <strong>in Scienze della Formazione Primaria</strong>
           </div>
         </article>
 

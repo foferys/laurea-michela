@@ -146,7 +146,7 @@ a {
 .home-copy {
   position: absolute;
   z-index: 2;
-  top: 390px;
+  top: 28rem;
   left: 50%;
   width: min(94%, 430px);
   transform: translateX(-50%);
@@ -235,32 +235,6 @@ a {
   gap: 15px;
   padding: 20px 22px 28px;
   background: var(--paper);
-}
-
-.home-panel__date {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  gap: 13px;
-  text-align: center;
-}
-
-.home-panel__date span {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.13em;
-  line-height: 1.25;
-  text-transform: uppercase;
-}
-
-.home-panel__date strong {
-  padding: 0 15px;
-  border-right: 1px solid var(--gold-light);
-  border-left: 1px solid var(--gold-light);
-  color: var(--gold);
-  font-size: 2.85rem;
-  line-height: 1;
 }
 
 .location-chip {

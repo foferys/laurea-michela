@@ -12,3 +12,11 @@ When implementing from a selected generated mock, treat that image as the source
 - Graduation: 29 June 2026, Universita della Calabria, Aula A, Cubo 30A, ground floor.
 - Party: 10 July 2026 at 20:00, Ristorante Hotel Barbieri, Altomonte.
 - RSVP deadline: 25 June 2026.
+
+## Confirmed design decisions
+
+- The Home headline uses "Dottoressa" above Michela's name.
+- Every visible degree description shows "magistrale a ciclo unico" before "in Scienze della Formazione Primaria".
+- The Laurea page does not show an introductory script sentence above the date cards.
+- The Laurea page course summary card uses the full label "Magistrale a ciclo unico".
+- The Home page does not display the graduation date; dates remain in their dedicated sections.
