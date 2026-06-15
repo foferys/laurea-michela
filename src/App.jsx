@@ -117,19 +117,7 @@ function HomePage({ onNavigate, onCalendar }) {
         </div>
       </div>
 
-      <div className="home-panel">
-        <button className="location-chip" onClick={() => onNavigate("laurea")}>
-          <School size={19} />
-          <span>
-            Università della Calabria
-            <small>Aula A · Cubo 30A · piano terra</small>
-          </span>
-        </button>
-        <button className="action-button" onClick={onCalendar}>
-          <CalendarDays size={19} />
-          <span>Aggiungi al calendario</span>
-        </button>
-      </div>
+    
     </section>
   );
 }
