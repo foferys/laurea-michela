@@ -20,3 +20,5 @@ When implementing from a selected generated mock, treat that image as the source
 - The Laurea page does not show an introductory script sentence above the date cards.
 - The Laurea page course summary card uses the full label "Magistrale a ciclo unico".
 - The Home page does not display the graduation date; dates remain in their dedicated sections.
+- Social sharing uses `public/assets/preview-condivisione.png`.
+- Every page ends with a compact "creato da Foferys" footer; Foferys links to a prefilled WhatsApp inquiry at +39 345 407 9281.
