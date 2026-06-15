@@ -21,7 +21,7 @@ const MAP_UNICAL =
 const WHATSAPP =
   "https://wa.me/393403746481?text=Ciao%20Michela%2C%20ti%20confermo%20che%20sar%C3%B2%20presente%20alla%20tua%20laurea%20per%20festeggiare%20insieme";
 const WHATSAPP_FOFERYS =
-  "https://wa.me/393454079281?text=ciao%2C%20vorrei%20sapere%20di%20pi%C3%B9%20sulla%20realizzazione%20di%20di%20inviti%20digitali";
+  "https://wa.me/393454079281?text=ciao%2C%20vorrei%20sapere%20di%20pi%C3%B9%20sulla%20realizzazione%20di%20inviti%20digitali";
 
 const navItems = [
   { id: "laurea", label: "Laurea", icon: GraduationCap },
