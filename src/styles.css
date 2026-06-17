@@ -105,7 +105,7 @@ a {
 
 .home-art {
   position: relative;
-  min-height: 800px;
+  min-height: calc(100svh - 115px);
   flex: 1;
   overflow: hidden;
   background:
@@ -134,32 +134,32 @@ a {
 .home-decoration {
   position: absolute;
   z-index: 0;
-  width: 40%;
-  max-width: 188px;
+  width: 36%;
+  max-width: 166px;
   opacity: 0.76;
   mix-blend-mode: multiply;
   pointer-events: none;
 }
 
 .home-decoration--left {
-  top: -21px;
-  left: -55px;
+  top: -25px;
+  left: -48px;
   transform: rotate(-3deg);
 }
 
 .home-decoration--right {
-  top: -22px;
-  right: -58px;
+  top: -27px;
+  right: -52px;
   transform: rotate(3deg);
 }
 
 .home-graduate {
   position: absolute;
   z-index: 1;
-  top: 62px;
+  top: clamp(38px, 7svh, 60px);
   left: 50%;
-  width: min(62%, 260px);
-  height: 390px;
+  width: min(58%, 240px);
+  height: clamp(255px, 42svh, 360px);
   object-fit: contain;
   object-position: center;
   transform: translateX(-50%);
@@ -170,7 +170,7 @@ a {
 .home-copy {
   position: absolute;
   z-index: 2;
-  top: 28rem;
+  top: clamp(248px, 40.5svh, 356px);
   left: 50%;
   width: min(94%, 430px);
   transform: translateX(-50%);
@@ -194,30 +194,30 @@ a {
 }
 
 .overline {
-  margin: 10px 0 -7px;
-  font-size: 0.9rem;
-  letter-spacing: 0.18em;
+  margin: 6px 0 -5px;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
 }
 
 .home-copy h1 {
   margin: 0;
   color: var(--gold);
   font-family: "Allura", "Snell Roundhand", cursive;
-  font-size: clamp(5rem, 23vw, 7.3rem);
+  font-size: clamp(4.4rem, 20vw, 6.7rem);
   font-weight: 400;
-  line-height: 0.9;
+  line-height: 0.84;
 }
 
 .degree {
   margin: 0;
-  font-size: clamp(1.48rem, 6.2vw, 1.82rem);
+  font-size: clamp(1.17rem, 5.15vw, 1.58rem);
   font-weight: 600;
   line-height: 1.15;
 }
 
 .degree span {
   display: block;
-  margin-top: 6px;
+  margin-top: 4px;
   font-size: 0.88em;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -225,12 +225,39 @@ a {
 }
 
 .invitation {
-  margin: 15px 0 0;
-  font-size: 1.26rem;
+  margin: 9px 0 0;
+  font-size: clamp(0.91rem, 4vw, 1.08rem);
   font-weight: 600;
-  letter-spacing: 0.09em;
-  line-height: 1.5;
+  letter-spacing: 0.08em;
+  line-height: 1.36;
   text-transform: uppercase;
+}
+
+.home-hint {
+  display: inline-flex;
+  max-width: min(21rem, 91%);
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px auto 0;
+  padding: 9px 14px;
+  border: 1px solid rgba(183, 122, 32, 0.48);
+  border-radius: 999px;
+  color: #5b3b12;
+  background: rgba(245, 231, 199, 0.9);
+  box-shadow: 0 9px 22px rgba(117, 76, 18, 0.13);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(0.74rem, 3.08vw, 0.86rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.22;
+  text-transform: uppercase;
+}
+
+.home-hint svg {
+  flex: 0 0 auto;
+  color: var(--gold);
 }
 
 .flourish {
@@ -238,7 +265,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin: 13px auto;
+  margin: 9px auto;
   color: var(--gold);
 }
 
@@ -798,17 +825,17 @@ a {
 
 @media (max-width: 370px) {
   .home-copy {
-    top: 380px;
+    top: 252px;
   }
 
   .home-copy h1 {
-    font-size: 5rem;
+    font-size: 4.2rem;
   }
 
   .home-graduate {
-    top: 58px;
-    width: 230px;
-    height: 365px;
+    top: 42px;
+    width: 218px;
+    height: 275px;
   }
 
   .content-stack {

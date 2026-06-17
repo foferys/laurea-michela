@@ -13,6 +13,7 @@ import {
   PartyPopper,
   School,
   Sparkles,
+  SquareArrowDown,
 } from "lucide-react";
 
 const MAP_PARTY = "https://maps.app.goo.gl/7oEevBpML35yiLyo6";
@@ -116,6 +117,10 @@ function HomePage({ onNavigate, onCalendar }) {
             <br />
             con me questo traguardo
           </p>
+          <div className="home-hint">
+            <SquareArrowDown size={18} strokeWidth={1.8} aria-hidden="true" />
+            <span>Tocca i pulsanti qui sotto per scoprire tutti i dettagli</span>
+          </div>
         </div>
       </div>
 
